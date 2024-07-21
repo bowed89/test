@@ -1,0 +1,16 @@
+<div class="card mb-4">
+    <img [src]="movie.Poster" class="card-img-top" alt="{{ movie.Title }}">
+    <div class="card-body">
+        <h5 class="card-title">{{ movie.Title }}</h5>
+        <p class="card-text">{{ movie.Year }}</p>
+        <div class="button-container">
+            <button type="button" class="btn btn-outline-dark mb-2" *ngIf="_movieService.home" (click)="openModal()">Ver Más</button>
+            <button type="button" class="btn btn-outline-dark" *ngIf="_movieService.home" (click)="addFavorite()">Añadir a mis
+                Películas</button>
+
+            <button type="button" class="btn btn-outline-danger mb-2" *ngIf="!_movieService.home" (click)="deleteFavorite(movie.id)">Eliminar</button>
+
+
+        </div>
+    </div>
+</div>

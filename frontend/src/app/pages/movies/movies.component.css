@@ -1,0 +1,17 @@
+.alert-info {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e9f5ff;
+    color: #007bff;
+    border: 1px solid #b8daff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; 
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  }

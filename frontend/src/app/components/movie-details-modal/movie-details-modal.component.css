@@ -1,0 +1,19 @@
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  .modal-body {
+    padding: 1.5rem;
+  }
+  .modal-header {
+    background-color: #f8f9fa;
+  }
+  .modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+  }
+
+  .modal-footer.d-flex.flex-column .btn {
+    width: 100%;
+  }
+  
